@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>JS | Canvas Treasure Hunt</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="game">
+    <h1>Viking & Snail seeking treasure</h1>
+    <canvas width="500" height="500"></canvas>
+    <div class="stats">
+      <p>P1 Score: <span id="p1score">0</span> |</p>
+      <p>P2 Score: <span id="p2score">0</span> |</p>
+      <p>FPS: <span id="fps">0</span></p>
+    </div>
+    <div class="instruction">
+      <h2>How to play:</h2>
+      <p>Player 1: Arrow Keys</p>
+      <p>Player 2: W, A, S, D</p>
+    </div>
+  </div>
+  <script src="character.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
